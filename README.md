@@ -22,6 +22,37 @@ Business Stuff
 - A miscellaneous set of categories to handle a variety of tasks.
 
 
+## Yeah, Yeah, Seriously, What Is It?
+
+**Categories**
+- BTIErrorCategories.  Log those errors when you are otherwise too lazy to do so.
+- NSArray.  firstObject.  Woo!
+- NSMutableArray.  removeFirstObject.  Woo!  Oh, and move something to a different index.
+- NSNotificationCenter.  Make sure notifications are posted on the main thread.
+- NSManagedObject.  Cleaner code with Core Data stuff.  I probably stole this from somebody else.
+- UITableView.  IndexPath for a view.  Not my idea.
+
+**Models**
+- BTIObject.  Generic.  Nice -description method, though.
+- BTINotificationHelper.  Simplify adding/removing notification observers.
+- BTITableRowInfo.  Encapsulate useful stuff for table rows.
+- BTITableSectionInfo.  Encapsulate useful stuff for table sections.
+- BTITableContentsManager.  Combine rowInfos and sectionInfos to manage your table view.
+
+**Views**
+- BTITableViewCell. Bend the reuseIdentifier to your will.
+
+**View Controllers**
+- BTIViewController. Mostly shows how to use the notification helpers.
+- BTITableViewController. Adds a table view.
+- BTIArrayTableViewController. Adds a simple array.
+- BTIManagerTableViewController. Uses a BTITableContentsManager.
+- BTICoreDataTableViewController. Uses a fetched results controller.
+
+**Bonus**
+- Nice demonstration of my awesome coding style.
+- Demonstration of my caveman logs, too (I've thoughtfully commented them out for you).
+
 ## Why did you create this?
 
 I am a firm believer in being consistent with one's coding style.  Previously I have tried to enforce this consistency through the use of templates.  Templates have their place, but then you wind up with the same code copied everywhere the template was used.  After far too long, I realized I could use superclasses instead.  I'm not always the brightest bulb...
@@ -36,6 +67,7 @@ BTIConcepts can be cloned from its git repository on github. You can find the re
 ## Requirements and supported OS versions
 
 - **iOS 6.0** or later (**with ARC**) for iPhone, iPad and iPod touch
+- Older iOS versions can be supported by commenting out NSUUID objects in a couple of places.  Most of this stuff can actually go back pretty far.
 - You will need to add the **Core Data** framework to your project.
 
 ## License
@@ -63,5 +95,5 @@ The BTIConcepts project includes a simple iPhone demonstration app.  What it doe
 
 ## Bugs and feature requests
 
-There is very little support offered with this code.  I am always interested in better ways of doing things, so I'll be happy to consider features requests.  (Note, consider doesn't mean I will do anything).  I don't speak Git/GitHub all that well, so I can't make any promises about pull requests.
+There is very little support offered with this code.  I am always interested in better ways of doing things, so I'll be happy to consider feature requests.  (Note, "consider" doesn't mean I will do anything).  I don't speak Git/GitHub all that well, so I can't make any promises about pull requests.
 

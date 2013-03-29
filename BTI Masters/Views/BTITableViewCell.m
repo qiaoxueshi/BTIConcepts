@@ -4,6 +4,7 @@
 //  Created by Brian Slick in Feb 2013.
 //  Copyright (c) 2013 BriTer Ideas LLC. All rights reserved.
 //
+// reuseIdentifier concept from http://iphonedevelopment.blogspot.com/2010/04/table-view-cells-redux.html
 
 #import "BTITableViewCell.h"
 
