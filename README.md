@@ -100,3 +100,5 @@ The BTIConcepts project includes a simple iPhone demonstration app.  What it doe
 
 There is very little support offered with this code.  I am always interested in better ways of doing things, so I'll be happy to consider feature requests.  (Note, "consider" doesn't mean I will do anything).  I don't speak Git/GitHub all that well, so I can't make any promises about pull requests.
 
+To discuss this project, please post in [this thread](http://iphonedevsdk.com/forum/iphone-sdk-tutorials/112654-sample-code-bticoncepts.html).
+
