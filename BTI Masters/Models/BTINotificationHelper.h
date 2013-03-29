@@ -25,10 +25,9 @@ OVERVIEW
 
 
 // Libraries
-#import <Foundation/Foundation.h>
 
-// Forward Declarations
-
+// Classes and Forward Declarations
+#import "BTIObject.h"
 
 // Public Constants
 typedef enum {
@@ -37,7 +36,7 @@ typedef enum {
 	BTINotificationRegistrationCustom,
 } BTINotificationRegistrationLifeSpan;
 
-@interface BTINotificationHelper : NSObject
+@interface BTINotificationHelper : BTIObject
 {
 }
 

@@ -24,6 +24,8 @@ Business Stuff
 
 ## Yeah, Yeah, Seriously, What Is It?
 
+You can read more about it [here](http://briterideas.blogspot.com/2013/03/open-source-code-bticoncepts.html).  In summary:
+
 **Categories**
 - BTIErrorCategories.  Log those errors when you are otherwise too lazy to do so.
 - NSArray.  firstObject.  Woo!
@@ -31,6 +33,7 @@ Business Stuff
 - NSNotificationCenter.  Make sure notifications are posted on the main thread.
 - NSManagedObject.  Cleaner code with Core Data stuff.  I probably stole this from somebody else.
 - UITableView.  IndexPath for a view.  Not my idea.
+- UIDevice. isIpad, isIphone.  Woo!
 
 **Models**
 - BTIObject.  Generic.  Nice -description method, though.

@@ -16,7 +16,6 @@
  */
 
 // Libraries
-#import <Foundation/Foundation.h>
 
 // Classes and Forward Declarations
 #import "BTIObject.h"

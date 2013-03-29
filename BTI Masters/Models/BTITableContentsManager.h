@@ -18,7 +18,6 @@
  */
 
 // Libraries
-#import <Foundation/Foundation.h>
 
 // Classes and Forward Declarations
 #import "BTIObject.h"
@@ -71,7 +70,7 @@
 /*
  Adds a BTITableRowInfo object to a BTITableSectionInfo object.  If makeNewSelection is NO, the row info will be added to the last section info in the array.  If no section infos are already in the array, a new one will be added, and this row info will be added to it.  If makeNewSelection is YES, a new section info object will be added to the array, and this row info will be added to it.
  */
-- (void)addRowInfo:(BTITableRowInfo *)rowInfo makeNewSection:(BOOL)isNewSection;		// If NO, add to last section.  If YES, make new section.
+- (void)addRowInfo:(BTITableRowInfo *)rowInfo makeNewSection:(BOOL)isNewSection;	
 
 #pragma mark - UITableView Support Methods
 

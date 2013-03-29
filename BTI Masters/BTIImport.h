@@ -39,3 +39,5 @@
 #import "NSMutableArray+BTIAdditions.h"
 #import "NSNotificationCenter+BTIAdditions.h"
 #import "UITableView+BTIAdditions.h"
+#import "UIDevice+BTIAdditions.h"
+
